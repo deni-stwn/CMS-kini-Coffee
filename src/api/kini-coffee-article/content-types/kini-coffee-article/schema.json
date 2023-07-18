@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kini_coffee_articles",
+  "info": {
+    "singularName": "kini-coffee-article",
+    "pluralName": "kini-coffee-articles",
+    "displayName": "kini coffee article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

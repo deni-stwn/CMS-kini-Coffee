@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "youtubes",
+  "info": {
+    "singularName": "youtube",
+    "pluralName": "youtubes",
+    "displayName": "youtube"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visimisis",
+  "info": {
+    "singularName": "visimisi",
+    "pluralName": "visimisis",
+    "displayName": "visimisi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visi": {
+      "type": "richtext"
+    },
+    "misi": {
+      "type": "richtext"
+    }
+  }
+}
